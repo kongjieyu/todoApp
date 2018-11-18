@@ -1,6 +1,7 @@
 //'express' is the module name inside the node_modules file, this line of code help us access to that module, get all the functionality express have
 var express = require('express');
 
+//require the controller
 var todoController = require('./controllers/todoController');
 
 //use body-parser as the middleware to handle post.
